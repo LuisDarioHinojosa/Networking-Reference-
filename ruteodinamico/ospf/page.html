@@ -1,0 +1,85 @@
+<!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>OSPF</title>
+</head><body>OSPF router: <br/>
+<img src="image.png"/><br/>
+OSPF1 = Identificador de proceso. <br/>
+Tiene que ser comun entre todo el sistema autonomo.<br/>
+<br/>
+<br/>
+Area = Rutas directamente connectadas.<br/>
+<br/>
+<br/>
+<br/>
+<span style="font-size: 19pt">Loopback: Interfaz virtual en el router.<br/>
+<br/>
+<br/>
+<br/>
+</span><img src="image 2.png"/><span style="font-size: 19pt"><br/>
+</span><span style="font-size: 19pt"><br/>
+<br/>
+Tepuedes connectar por telnet a un routeador desde cualquier gateway en las interfases configuradas. Siempre que el puerto este prendido.<br/>
+</span><img src="image 3.png"/><br/>
+<br/>
+<br/>
+<span style="font-size: 29pt">Notes que si se rompe un cable o algo, administrativamente esta arriba pero el protocolo esta abajo. <br/>
+Software: Aministrativa: Programacion del routeador<br/>
+Hardware: Parte fisica.<br/>
+<br/>
+<br/>
+Loopback: No depende de la interface fisica.<br/>
+<br/>
+<br/>
+Protocolo OSPF: <br/>
+<br/>
+Identificador del router: 1 direccion ip cualquiera<br/>
+<br/>
+<img src="image 4.png"/><br/>
+<br/>
+router ospf1: Acceder a la interfaz<br/>
+router id: PARA QUE EL ROUTER SE IDENTIFIQUE CON LAS REDES QUE TIENE CONECTADAS<br/>
+<br/>
+<img src="image 5.png"/><br/>
+<br/>
+WILDCARD: Bits de coincidencia.<br/>
+Area 0: <br/>
+Sistema autonomo: Grupo de routers orientadas a la misma lan.<br/>
+<img src="image 6.png"/><br/>
+<br/>
+Un area dentro de ospf es un grupo de routeadores dentro del sistema autonomo que comparte tablas entre estos.<br/>
+<br/>
+IDROUTE: Siempre le ponen 1.1.1.1 2.2.2.2 3.3.3.3 y asi.<br/>
+Parece IP pero es solo un nombre codficado en binario<br/>
+<br/>
+<br/>
+<img src="image 7.png"/><br/>
+<br/>
+Se decalaran las rutas en todos los routers del grupo.<br/>
+<br/>
+Id router: <br/>
+<ul><li style="list-style-type: none"/>
+</ul>
+Direccion de loopback. Una direccion logica que no depende delas interfases.<br/>
+</span><br/>
+<br/>
+<br/>
+<img src="image 8.png"/><br/>
+<br/>
+<br/>
+Al unir las cosas <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<img src="image 9.png"/><br/>
+<br/>
+<br/>
+Cuando tienes el ospf una ves que agregas un router al area, las tablas de ruteo se actualizan.<br/>
+<br/>
+</body></html>
